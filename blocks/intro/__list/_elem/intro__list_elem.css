@@ -1,0 +1,7 @@
+.intro__list_elem {
+  margin-bottom: 9px;
+}
+
+.intro__list_elem:last-child {
+  margin-bottom: 92px;
+}

@@ -1,0 +1,16 @@
+.cover {
+  background-image: url(../../images/trains.jpg);
+  padding: 0;
+  width: calc(50% + 544px);
+  margin: 0 auto;
+  margin-top: 92px;
+  padding-top: calc(100vw/5.12);
+  padding-bottom: calc(100vw/5.12);
+  background-size: 100% 100%;
+  color: #ffffff;
+}
+
+.cover:hover {
+   filter: grayscale(50%);
+   cursor: url("../../images/pointer.png"), pointer;
+}

@@ -1,0 +1,8 @@
+.places {
+  width: calc(100% - (100% - 730px) / 2.56);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+}
