@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 748px) {
   .places__title {
+    width: 288px;
     margin-left: 16px;
     margin-bottom: 32px;
     font-weight: 900;
