@@ -1,4 +1,13 @@
 .places__cover {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 748px) {
+  .places__cover {
+    flex-direction: column;
+  }
 }

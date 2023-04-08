@@ -1,16 +1,31 @@
 .cover {
-  background-image: url(../../images/trains.jpg);
   padding: 0;
   width: calc(50% + 544px);
   margin: 0 auto;
   margin-top: 92px;
-  padding-top: calc(100vw/5.12);
-  padding-bottom: calc(100vw/5.12);
-  background-size: 100% 100%;
   color: #ffffff;
 }
 
-.cover:hover {
-   filter: grayscale(50%);
-   cursor: url("../../images/pointer.png"), pointer;
+@media screen and (min-width: 1281px) {
+  .cover {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 92px;
+  }
+}
+
+@media screen and (max-width: 1106px) {
+  .cover {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cover {
+    margin: 0;
+    padding: 0;
+    margin-top: 66px;
+  }
 }

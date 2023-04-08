@@ -1,7 +1,13 @@
 .intro__list_elem {
-  margin-bottom: 9px;
+  margin-bottom: 4px;
 }
 
 .intro__list_elem:last-child {
   margin-bottom: 92px;
+}
+
+@media screen and (max-width: 720px) {
+  .intro__list_elem:last-child {
+    margin-bottom: 64px;
+  }
 }

@@ -4,8 +4,14 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 0;
-  height: 40px;
   background-color: #2A2C2F;
   color: white;
   margin-top: 92px;
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    margin-top: 64px;
+    flex-direction: column;
+  }
 }

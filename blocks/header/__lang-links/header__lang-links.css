@@ -3,3 +3,9 @@
   padding: 0;
   padding-top: 52px;
 }
+
+@media screen and (max-width: 720px) {
+  .header__lang-links {
+    padding-top: 30px;
+  }
+}

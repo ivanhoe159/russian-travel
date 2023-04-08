@@ -15,3 +15,11 @@
 .header__lang-link:last-child {
   margin-left: 18px;
 }
+
+@media screen and (max-width: 720px) {
+  .header__lang-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

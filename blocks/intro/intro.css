@@ -4,3 +4,15 @@
   margin-left: calc((100% - 900px) / 2.56);
   width: 690px;
 }
+
+@media screen and (max-width: 720px) {
+  .intro {
+    margin: 0 auto;
+    width: 288px;
+  }
+}
+@media screen and (max-width: 955px) {
+  .intro {
+    margin: 0 auto;
+  }
+}

@@ -3,4 +3,15 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 748px) {
+  .places__paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }
