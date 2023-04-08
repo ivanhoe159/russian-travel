@@ -22,3 +22,7 @@
 * Grid Layout
 * Адаптивная вёрстка
 * Флексбокс
+
+**GitHub Pages**
+
+* [Ссылка на GitHub Pages](https://ivanhoe159.github.io/russian-travel/index.html)
