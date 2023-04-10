@@ -1,0 +1,13 @@
+.intro__elem {
+  margin-bottom: 3px;
+}
+
+.intro__elem:last-child {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 720px) {
+  .intro__elem:last-child {
+    margin-bottom: 64px;
+  }
+}

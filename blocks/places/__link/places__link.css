@@ -1,0 +1,13 @@
+.places__link {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+.places__link:hover {
+  opacity: 0.8;
+  cursor: url("../../../images/pointer.png"), pointer;
+}

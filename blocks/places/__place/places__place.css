@@ -1,0 +1,18 @@
+.places__place {
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    margin-top: 73px;
+  }
+}
+
+@media screen and (max-width: 748px) {
+  .places__place {
+    margin-top: 32px;
+  }
+}
+
