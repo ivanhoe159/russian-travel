@@ -8,11 +8,19 @@
   .places__place {
     margin-top: 73px;
   }
+
+  .places__place:first-child {
+    margin-top: 80px;
+  }
 }
 
 @media screen and (max-width: 748px) {
   .places__place {
-    margin-top: 32px;
+    margin-top: 50px;
+  }
+
+  .places__place:first-child {
+    margin-top: 64px;
   }
 }
 

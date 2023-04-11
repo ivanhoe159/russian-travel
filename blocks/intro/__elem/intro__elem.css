@@ -1,5 +1,6 @@
 .intro__elem {
-  margin-bottom: 3px;
+  margin: 0;
+  padding: 0;
 }
 
 .intro__elem:last-child {
