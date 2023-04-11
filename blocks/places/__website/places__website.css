@@ -23,5 +23,6 @@
 @media screen and (max-width: 748px) {
   .places__website {
     margin-left: 16px;
+    margin-bottom: 32px;
   }
 }
